@@ -6,16 +6,15 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class FiboTest {
-	Fibo f;
-
+Fibo f;
 	@Before
 	public void setUp() throws Exception {
-		f= new Fibo();
+		f=new Fibo();
+		
 	}
 
 	@Test
-	public void test() {
-		
+	public void itShouldRetur1when2() {
 		assertEquals(1, f.process(2));
 	}
 
